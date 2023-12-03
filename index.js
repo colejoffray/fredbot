@@ -29,5 +29,14 @@ bot.on('messageCreate', message => {
    
 })
 
+bot.on('interactionCreate', async interaction => {
+    if(!interaction.isChatInputCommand()){
+        return
+    }
+    if(interaction.commandName === 'ping'){
+       await interaction.reply('Pong!')
+    }
+})
+
 
 bot.login(process.env.TOKEN)
