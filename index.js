@@ -70,9 +70,15 @@ bot.on('interactionCreate', async interaction => {
                 ['Thunderstorm', '⛈️'],
             ])
 
+            let userName = interaction.user
+
             
 
-            interaction.reply(`The weather in ${city} is ${temp}° with a min of ${min}° and a max of ${max}. You should expect ${description} ${anotherMap.get(icon)}`)
+            interaction.reply(
+                `Hello ${userName},
+                    
+                The weather in ${city} is ${temp}° F with a min of ${min}° F and a max of ${max}° F. 
+                You should expect ${description} ${anotherMap.get(icon)}.`)
         })
         .catch(err => console.log(err))
     }
