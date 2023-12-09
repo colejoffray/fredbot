@@ -1,11 +1,22 @@
 require('dotenv').config()
-const { REST, Routes } = require('discord.js') ;
+const { REST, Routes, ApplicationCommandOptionType } = require('discord.js') ;
 
 const commands = [
   {
     name: 'ping',
     description: 'Replies with Pong!',
   },
+  {
+    name: 'qr',
+    description: 'This command will create a qr code for the your desired url',
+    options: [
+      {
+        name: 'url',
+        description: 'The url',
+        type: ApplicationCommandOptionType.String
+      }
+    ] 
+  }
 ];
 
 const rest = new REST().setToken(process.env.TOKEN);
