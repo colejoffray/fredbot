@@ -43,13 +43,8 @@ bot.on('interactionCreate', async interaction => {
         return;
     }
     if(interaction.commandName === 'qr'){
-    let url = interaction.options.get('url').name
-    // fetch(`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${url}`)
-    // .then(response => console.log(response))
-    // .catch(err => console.log(err))
-    // console.log(url);
-    console.log(url);
-    // interaction.reply(`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${url}`)
+    let url = interaction.options.get('url').value
+    interaction.reply(`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${url}`)
     }
     
     
