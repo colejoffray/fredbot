@@ -17,9 +17,10 @@ Fred Bot provides real-time weather updates for any global location with a strai
 
 ## Links
 
-- Repository URL: [Here]()
-- Live Site URL: [Here]()
-
+- Repository URL: [Here](https://github.com/colejoffray/fredbot)
+<!---
+- Live Site URL: [Here](url)
+--->
 
 
 ## Features
