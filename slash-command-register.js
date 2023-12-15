@@ -17,6 +17,17 @@ const commands = [
       }
     ] 
   },
+  {
+    name: 'qr',
+    description: 'This command will create a qr code for the your desired url',
+    options: [
+      {
+        name: 'url',
+        description: 'The url',
+        type: ApplicationCommandOptionType.String
+      }
+    ] 
+  },
   
 ];
 
