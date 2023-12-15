@@ -29,6 +29,13 @@ Fred Bot provides real-time weather updates for any global location with a strai
 
 + User-Friendly Interface: Fred Bot offers an intuitive and user-friendly interface, making it easy for users to access its features.
 
+## Setup
++ Clone this repository.
++ Using Node Package Manager install necessary packages using ```npm install```
++ Run the server locally using node index.js
++ Add Fredbot to your server using https://discord.com/api/oauth2/authorize?client_id=1180641168070037625&permissions=2147483648&scope=bot+applications.commands
+
+
 
 
 ## Usage/Examples
