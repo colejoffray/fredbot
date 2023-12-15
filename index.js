@@ -84,5 +84,17 @@ bot.on('interactionCreate', async interaction => {
     }
 })
 
+bot.on('interactionCreate', async interaction => {
+    if(!interaction.isChatInputCommand()){
+        return;
+    }
+    if(interaction.commandName === 'qr'){
+            const url = interaction.options.getString('url');
+            const apiResponse = `https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${url}`;
+            interaction.reply(apiResponse)
+    
+    }
+})
+
 
 bot.login(process.env.TOKEN)

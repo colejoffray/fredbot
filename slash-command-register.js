@@ -16,7 +16,8 @@ const commands = [
         type: ApplicationCommandOptionType.String
       }
     ] 
-  }
+  },
+  
 ];
 
 
