@@ -10,10 +10,10 @@ Fred Bot provides real-time weather updates for any global location with a strai
 
 ## Screenshots
 
-![image description](example.png)
-![image description](image.png)
+![Sample QR](example.png)
+![Weather Response](weather.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
 
 ## Links
 
@@ -89,9 +89,19 @@ Returns a qr code img of the link or text
 
 ## Lessons Learned
 
-While building this project, we've gained an understanding of the Discord.js environment, mastering the integration of Discord's features to enhance our bot, Fred Bot. Handling GET requests has sharpened our skills in making HTTP requests and parsing data for real-time information, while delving into Node.js syntax has equipped us to build an efficient backend for our bot. Asynchronous programming in Node.js has become second nature, allowing our bot to handle multiple tasks simultaneously. This project has provided a comprehensive understanding of Discord.js, GET requests, Node.js syntax, and asynchronous functions, offering a solid foundation for developing dynamic applications within the Discord environment. 
+While building this project, we gained a solid foundation for developing dynamic applications within the Discord environment and a comprehensive understanding of:
+
+  - Discord.js and integration of Discord's features to enhance our bot, Fred Bot.
+  - Handling GET requests,  HTTP requests and parsing data for real-time information.
+  - Node.js syntax and asynchronous programming. 
 
 
+
+## Roadmap
+
+- Refactor for Express.js functionality
+
+- Host remotely for multi-server use
 
 
 ## Authors
