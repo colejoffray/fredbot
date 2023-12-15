@@ -97,4 +97,4 @@ bot.on('interactionCreate', async interaction => {
 })
 
 
-bot.login(process.env.TOKEN)
+bot.login(TOKEN)
